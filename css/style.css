@@ -1,0 +1,578 @@
+:root {
+  --reference-width: 864px;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.site {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.desktop-site {
+  display: block;
+}
+.mobile-site {
+  display: none;
+}
+.visual-section {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+.visual-section > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.hotspots,
+.footer-hotspots,
+.component-hotspots {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.hotspot,
+.service-link {
+  position: absolute;
+  display: block;
+  pointer-events: auto;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 999px;
+}
+.header-hotspots .home {
+  left: 34.3%;
+  top: 27%;
+  width: 5.2%;
+  height: 48%;
+}
+.header-hotspots .layanan {
+  left: 41%;
+  top: 27%;
+  width: 7.2%;
+  height: 48%;
+}
+.header-hotspots .testimoni {
+  left: 49.6%;
+  top: 27%;
+  width: 7.6%;
+  height: 48%;
+}
+.header-hotspots .cara-kerja {
+  left: 59%;
+  top: 27%;
+  width: 8%;
+  height: 48%;
+}
+.header-hotspots .faq {
+  left: 68.5%;
+  top: 27%;
+  width: 4%;
+  height: 48%;
+}
+.header-hotspots .consult-top {
+  left: 76%;
+  top: 18%;
+  width: 20.5%;
+  height: 62%;
+}
+.buzzer-link {
+  left: 4%;
+  top: 11%;
+  width: 43.3%;
+  height: 84%;
+}
+.kol-link {
+  left: 48.4%;
+  top: 11%;
+  width: 47%;
+  height: 84%;
+}
+.footer-hotspots .whatsapp {
+  left: 31%;
+  top: 49%;
+  width: 35%;
+  height: 18%;
+}
+.footer-hotspots .tiktok {
+  left: 23%;
+  top: 86%;
+  width: 20%;
+  height: 10%;
+}
+.footer-hotspots .instagram {
+  left: 50%;
+  top: 86%;
+  width: 26%;
+  height: 10%;
+}
+.anchor-only {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.m-section {
+  width: 100%;
+  overflow: hidden;
+}
+.m-section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.mobile-header {
+  display: flex;
+  position: relative;
+  height: 72px;
+  background: #fff;
+  align-items: center;
+  padding: 4px 14px;
+  z-index: 50;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.mobile-logo {
+  width: 62px;
+  height: 64px;
+  display: block;
+}
+.mobile-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.mobile-wa {
+  margin-left: auto;
+  margin-right: 10px;
+  background: #ed1b2f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 11px 15px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.hamburger {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 11px;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.hamburger span {
+  width: 22px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+.mobile-nav {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 8px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-120%);
+  transition: transform 0.22s ease;
+  z-index: 49;
+}
+.mobile-nav.open {
+  transform: translateY(0);
+}
+.mobile-nav a {
+  padding: 13px 8px;
+  border-bottom: 1px solid #eee;
+  color: #111;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 900;
+}
+.mobile-nav .nav-wa {
+  margin-top: 10px;
+  background: #ed1b2f;
+  color: #fff;
+  text-align: center;
+  border-radius: 999px;
+  border: 0;
+}
+.m-hero img {
+  width: 100%;
+}
+.m-services,
+.m-testimonials,
+.m-workflow {
+  padding: 10px 14px 0;
+}
+.m-heading {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+.m-services > .m-heading {
+  height: auto;
+  margin-bottom: 10px;
+}
+.m-service-list,
+.m-testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.m-service-list a {
+  display: block;
+  line-height: 0;
+}
+.m-service-list img,
+.m-testimonial-list img {
+  width: 100%;
+  height: auto;
+}
+.m-testimonial-list {
+  gap: 14px;
+}
+.m-testimonials > .m-heading {
+  margin-bottom: 8px;
+}
+.m-brands {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: #111;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1.15fr 2.85fr;
+  gap: 8px;
+  align-items: center;
+}
+.brand-copy {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.15;
+  text-transform: uppercase;
+  padding: 8px;
+}
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+}
+.brand-grid img {
+  width: 100%;
+  height: 50px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 14px;
+  padding: 4px;
+}
+.m-workflow {
+  padding-top: 12px;
+}
+.workflow-heading {
+  margin-bottom: 6px;
+}
+.workflow-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.workflow-list img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+.m-footer {
+  position: relative;
+  margin-top: 10px;
+}
+.m-footer-art {
+  width: 100%;
+  height: auto;
+}
+.m-footer-wa {
+  position: absolute;
+  left: 29%;
+  top: 62%;
+  width: 43%;
+  height: 11%;
+  border-radius: 999px;
+}
+.m-social {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  background: #050505;
+  padding: 13px 10px 15px;
+}
+.m-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+}
+@media (max-width: 600px) {
+  .desktop-site {
+    display: none;
+  }
+  .mobile-site {
+    display: block;
+  }
+}
+@media (max-width: 420px) {
+  .mobile-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mobile-logo {
+    width: 58px;
+  }
+  .mobile-wa {
+    font-size: 10px;
+    padding: 10px 11px;
+    margin-right: 7px;
+  }
+  .m-services,
+  .m-testimonials,
+  .m-workflow {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .m-brands {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+  .brand-copy {
+    text-align: center;
+    padding: 5px;
+  }
+  .brand-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .brand-grid img {
+    height: 46px;
+  }
+  .m-footer-wa {
+    left: 25%;
+    width: 50%;
+    top: 62%;
+  }
+}
+
+/* Final mobile refinements */
+.m-testimonial-list {
+  gap: 10px;
+  align-items: center;
+}
+.m-testimonial-list img {
+  width: min(100%, 390px);
+  height: auto;
+}
+.m-testimonials > .m-heading {
+  width: min(100%, 475px);
+  margin: 0 auto 10px;
+  object-fit: contain;
+  object-position: center;
+}
+.m-brands {
+  margin-top: 14px;
+}
+.brand-grid img {
+  display: block;
+  object-fit: contain;
+}
+.workflow-list {
+  align-items: center;
+  gap: 3px;
+  padding: 0 0 4px;
+}
+.workflow-item {
+  width: min(68%, 250px);
+  display: flex;
+  justify-content: center;
+}
+.workflow-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.workflow-arrow {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 900;
+  color: #111;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m-footer {
+  position: relative;
+  margin-top: 12px;
+  overflow: hidden;
+}
+.m-footer-offer-wrap {
+  position: relative;
+  width: 100%;
+  padding: 0 0 2px;
+}
+.m-footer-offer {
+  display: block;
+  width: 106%;
+  max-width: none;
+  height: auto;
+}
+.m-footer-wa {
+  position: absolute;
+  left: 29%;
+  top: 67%;
+  width: 43%;
+  height: 17%;
+  border-radius: 999px;
+}
+.m-footer-social {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.m-footer-social-hotspots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 23px;
+  pointer-events: none;
+}
+.m-footer-social-hotspots a {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  pointer-events: auto;
+}
+.m-footer-social-hotspots a:first-child {
+  left: 23%;
+  width: 27%;
+}
+.m-footer-social-hotspots a:last-child {
+  left: 51%;
+  width: 29%;
+}
+@media (max-width: 600px) {
+  .m-heading {
+    max-width: 100%;
+  }
+  .m-services,
+  .m-testimonials,
+  .m-workflow {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (max-width: 420px) {
+  .m-testimonial-list img {
+    width: 100%;
+  }
+  .workflow-item {
+    width: min(70%, 235px);
+  }
+  .workflow-arrow {
+    font-size: 22px;
+    height: 18px;
+  }
+  .m-footer-offer {
+    width: 108%;
+  }
+}
+
+/* Mobile brand strip: clean desktop-matched logos, 3 columns, no black logo borders. */
+@media (max-width: 600px) {
+  .m-brands {
+    margin: 14px 10px 0;
+    padding: 14px 12px 16px;
+    background: #111;
+    border-radius: 18px;
+    display: block;
+  }
+  .brand-copy {
+    width: 100%;
+    padding: 2px 4px 12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.15;
+  }
+  .brand-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+    align-items: center;
+  }
+  .brand-grid img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.42 / 1;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    padding: 6px;
+    margin: 0;
+    border: 0;
+    border-radius: 18px;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+@media (max-width: 420px) {
+  .m-brands {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 12px 9px 14px;
+  }
+  .brand-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+  }
+  .brand-copy {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+}
