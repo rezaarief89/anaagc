@@ -576,3 +576,35 @@ body {
     padding-bottom: 10px;
   }
 }
+
+
+/* Testimonial sharpness: use the high-resolution testimonial assets without stretching artifacts. */
+.visual-section#testimoni > img {
+  image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.m-testimonial-list img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+@media (min-width: 601px) {
+  .visual-section#testimoni > img {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .m-testimonial-list img {
+    width: 100%;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
