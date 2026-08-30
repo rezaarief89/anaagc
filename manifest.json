@@ -1,0 +1,90 @@
+{
+  "source_size": [
+    864,
+    1821
+  ],
+  "retina_size": [
+    1728,
+    3642
+  ],
+  "strategy": "2x Lanczos + mild unsharp mask; delivered at native CSS width for high-DPI screens",
+  "sections": [
+    {
+      "name": "01-header-hero",
+      "css_size": [
+        864,
+        527
+      ],
+      "retina_size": [
+        1728,
+        1054
+      ]
+    },
+    {
+      "name": "02-services",
+      "css_size": [
+        864,
+        277
+      ],
+      "retina_size": [
+        1728,
+        554
+      ]
+    },
+    {
+      "name": "03-testimonials",
+      "css_size": [
+        864,
+        396
+      ],
+      "retina_size": [
+        1728,
+        792
+      ]
+    },
+    {
+      "name": "04-brand-strip",
+      "css_size": [
+        864,
+        97
+      ],
+      "retina_size": [
+        1728,
+        194
+      ]
+    },
+    {
+      "name": "05-workflow",
+      "css_size": [
+        864,
+        217
+      ],
+      "retina_size": [
+        1728,
+        434
+      ]
+    },
+    {
+      "name": "06-cta",
+      "css_size": [
+        864,
+        263
+      ],
+      "retina_size": [
+        1728,
+        526
+      ]
+    },
+    {
+      "name": "07-footer",
+      "css_size": [
+        864,
+        44
+      ],
+      "retina_size": [
+        1728,
+        88
+      ]
+    }
+  ]
+}
