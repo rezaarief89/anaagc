@@ -158,7 +158,6 @@ picture {
     transform: translateY(-8px) rotate(-45deg);
   }
   .m-hero {
-    padding: 0 0 20px;
     background: oklch(99.2% 0.006 80);
   }
   .hero-visual-top {
