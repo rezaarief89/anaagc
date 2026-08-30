@@ -1,0 +1,247 @@
+{
+  "breakpoint": "599px",
+  "method": "crop-only from existing 2x masters",
+  "no_asset_upscale": true,
+  "mobile_assets": [
+    {
+      "name": "hero",
+      "source_section": "hero",
+      "css_crop": [
+        0,
+        0,
+        864,
+        527
+      ],
+      "pixel_size": [
+        1728,
+        1054
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "services-heading",
+      "source_section": "services",
+      "css_crop": [
+        0,
+        0,
+        864,
+        85
+      ],
+      "pixel_size": [
+        1728,
+        170
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "service-buzzer",
+      "source_section": "services",
+      "css_crop": [
+        28,
+        66,
+        432,
+        277
+      ],
+      "pixel_size": [
+        808,
+        422
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "service-kol",
+      "source_section": "services",
+      "css_crop": [
+        432,
+        66,
+        836,
+        277
+      ],
+      "pixel_size": [
+        808,
+        422
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "testimonials-heading",
+      "source_section": "testimonials",
+      "css_crop": [
+        0,
+        0,
+        864,
+        88
+      ],
+      "pixel_size": [
+        1728,
+        176
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "testimonial-buzzer",
+      "source_section": "testimonials",
+      "css_crop": [
+        28,
+        66,
+        432,
+        396
+      ],
+      "pixel_size": [
+        808,
+        660
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "testimonial-kol",
+      "source_section": "testimonials",
+      "css_crop": [
+        432,
+        66,
+        836,
+        396
+      ],
+      "pixel_size": [
+        808,
+        660
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "brand-strip",
+      "source_section": "brand",
+      "css_crop": [
+        0,
+        0,
+        864,
+        97
+      ],
+      "pixel_size": [
+        1728,
+        194
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "workflow-heading",
+      "source_section": "workflow",
+      "css_crop": [
+        0,
+        0,
+        864,
+        67
+      ],
+      "pixel_size": [
+        1728,
+        134
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "workflow-1",
+      "source_section": "workflow",
+      "css_crop": [
+        40,
+        50,
+        190,
+        217
+      ],
+      "pixel_size": [
+        300,
+        334
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "workflow-2",
+      "source_section": "workflow",
+      "css_crop": [
+        185,
+        50,
+        340,
+        217
+      ],
+      "pixel_size": [
+        310,
+        334
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "workflow-3",
+      "source_section": "workflow",
+      "css_crop": [
+        330,
+        50,
+        500,
+        217
+      ],
+      "pixel_size": [
+        340,
+        334
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "workflow-4",
+      "source_section": "workflow",
+      "css_crop": [
+        490,
+        50,
+        665,
+        217
+      ],
+      "pixel_size": [
+        350,
+        334
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "workflow-5",
+      "source_section": "workflow",
+      "css_crop": [
+        650,
+        50,
+        850,
+        217
+      ],
+      "pixel_size": [
+        400,
+        334
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "cta",
+      "source_section": "cta",
+      "css_crop": [
+        0,
+        0,
+        864,
+        263
+      ],
+      "pixel_size": [
+        1728,
+        526
+      ],
+      "crop_only": true
+    },
+    {
+      "name": "footer",
+      "source_section": "footer",
+      "css_crop": [
+        0,
+        0,
+        864,
+        44
+      ],
+      "pixel_size": [
+        1728,
+        88
+      ],
+      "crop_only": true
+    }
+  ]
+}

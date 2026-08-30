@@ -1,0 +1,276 @@
+{
+  "breakpoint": "640px",
+  "asset_policy": "crop-only from 2x masters, PNG and lossless WebP",
+  "assets": [
+    {
+      "name": "logo",
+      "master": "01-header-hero",
+      "css_crop": [
+        14,
+        8,
+        112,
+        104
+      ],
+      "pixel_size": [
+        196,
+        192
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "hero-copy",
+      "master": "01-header-hero",
+      "css_crop": [
+        20,
+        58,
+        478,
+        520
+      ],
+      "pixel_size": [
+        916,
+        924
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "hero-visual",
+      "master": "01-header-hero",
+      "css_crop": [
+        405,
+        48,
+        864,
+        527
+      ],
+      "pixel_size": [
+        918,
+        958
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "services-title",
+      "master": "02-services",
+      "css_crop": [
+        210,
+        0,
+        654,
+        70
+      ],
+      "pixel_size": [
+        888,
+        140
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "service-buzzer",
+      "master": "02-services",
+      "css_crop": [
+        28,
+        55,
+        432,
+        277
+      ],
+      "pixel_size": [
+        808,
+        444
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "service-kol",
+      "master": "02-services",
+      "css_crop": [
+        432,
+        55,
+        836,
+        277
+      ],
+      "pixel_size": [
+        808,
+        444
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "testimonials-title",
+      "master": "03-testimonials",
+      "css_crop": [
+        230,
+        0,
+        635,
+        72
+      ],
+      "pixel_size": [
+        810,
+        144
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "testimonial-buzzer",
+      "master": "03-testimonials",
+      "css_crop": [
+        28,
+        58,
+        427,
+        396
+      ],
+      "pixel_size": [
+        798,
+        676
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "testimonial-kol",
+      "master": "03-testimonials",
+      "css_crop": [
+        431,
+        58,
+        836,
+        396
+      ],
+      "pixel_size": [
+        810,
+        676
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "brands",
+      "master": "04-brand-strip",
+      "css_crop": [
+        20,
+        0,
+        844,
+        97
+      ],
+      "pixel_size": [
+        1648,
+        194
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "workflow-title",
+      "master": "05-workflow",
+      "css_crop": [
+        255,
+        0,
+        610,
+        58
+      ],
+      "pixel_size": [
+        710,
+        116
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "step-1",
+      "master": "05-workflow",
+      "css_crop": [
+        42,
+        48,
+        190,
+        217
+      ],
+      "pixel_size": [
+        296,
+        338
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "step-2",
+      "master": "05-workflow",
+      "css_crop": [
+        188,
+        48,
+        340,
+        217
+      ],
+      "pixel_size": [
+        304,
+        338
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "step-3",
+      "master": "05-workflow",
+      "css_crop": [
+        333,
+        48,
+        500,
+        217
+      ],
+      "pixel_size": [
+        334,
+        338
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "step-4",
+      "master": "05-workflow",
+      "css_crop": [
+        492,
+        48,
+        665,
+        217
+      ],
+      "pixel_size": [
+        346,
+        338
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "step-5",
+      "master": "05-workflow",
+      "css_crop": [
+        650,
+        48,
+        852,
+        217
+      ],
+      "pixel_size": [
+        404,
+        338
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "cta",
+      "master": "06-cta",
+      "css_crop": [
+        0,
+        0,
+        864,
+        263
+      ],
+      "pixel_size": [
+        1728,
+        526
+      ],
+      "operation": "crop-only"
+    },
+    {
+      "name": "footer",
+      "master": "07-footer",
+      "css_crop": [
+        0,
+        0,
+        864,
+        44
+      ],
+      "pixel_size": [
+        1728,
+        88
+      ],
+      "operation": "crop-only"
+    }
+  ]
+}

@@ -1,8 +1,7 @@
-# ANA Agency Retina assets
+# ANA Agency mobile refinement
 
-Versi ini memperbaiki blur dengan aset 2x (1728 px lebar) dan `srcset` untuk layar Retina/HiDPI. Tampilan CSS tetap maksimal 864 px, jadi browser tidak memperbesar source.
+Mobile update sesuai arahan: hamburger menu yang benar-benar membuka navigasi, hero disusun image-first lalu copy, dan layout konten memakai ritme vertikal yang rapi. Chips/feature row tetap asset-preserving dan pada mobile tampil sebagai struktur 2x2 melalui asset workflow, tanpa blur tambahan.
 
-- Gunakan `index.html` + `styles.css` langsung.
-- WebP 1x dipakai layar biasa, WebP 2x dipakai layar Retina.
-- PNG 2x disediakan sebagai fallback kualitas tertinggi.
-- Jangan menaikkan `.page` melewati 864 px. Referensi asli hanya 864 px, jadi lebar lebih besar akan kembali terlihat lembut.
+Semua visual berasal dari crop-only master Retina, PNG dan WebP lossless. FAQ mobile ditambahkan sebagai section native details.
+
+FAQ mobile dihapus dari markup dan navigasi.

@@ -1,0 +1,221 @@
+{
+  "source_size": [
+    864,
+    1821
+  ],
+  "section_boundaries": {
+    "header": [
+      0,
+      0,
+      864,
+      50
+    ],
+    "hero": [
+      0,
+      50,
+      864,
+      500
+    ],
+    "services": [
+      0,
+      500,
+      864,
+      810
+    ],
+    "testimonials": [
+      0,
+      810,
+      864,
+      1208
+    ],
+    "brands": [
+      0,
+      1208,
+      864,
+      1292
+    ],
+    "workflow": [
+      0,
+      1292,
+      864,
+      1513
+    ],
+    "cta": [
+      0,
+      1513,
+      864,
+      1777
+    ],
+    "footer": [
+      0,
+      1777,
+      864,
+      1821
+    ]
+  },
+  "crops": {
+    "header": [
+      "header",
+      [
+        0,
+        0,
+        864,
+        50
+      ]
+    ],
+    "hero-image": [
+      "hero",
+      [
+        0,
+        0,
+        864,
+        310
+      ]
+    ],
+    "hero-copy": [
+      "hero",
+      [
+        0,
+        300,
+        864,
+        450
+      ]
+    ],
+    "services-title": [
+      "services",
+      [
+        0,
+        0,
+        864,
+        55
+      ]
+    ],
+    "service-buzzer": [
+      "services",
+      [
+        32,
+        48,
+        426,
+        310
+      ]
+    ],
+    "service-kol": [
+      "services",
+      [
+        438,
+        48,
+        832,
+        310
+      ]
+    ],
+    "testimonials-title": [
+      "testimonials",
+      [
+        0,
+        0,
+        864,
+        50
+      ]
+    ],
+    "testimonial-buzzer": [
+      "testimonials",
+      [
+        32,
+        42,
+        426,
+        398
+      ]
+    ],
+    "testimonial-kol": [
+      "testimonials",
+      [
+        438,
+        42,
+        832,
+        398
+      ]
+    ],
+    "brands": [
+      "brands",
+      [
+        20,
+        0,
+        844,
+        84
+      ]
+    ],
+    "workflow-title": [
+      "workflow",
+      [
+        0,
+        0,
+        864,
+        62
+      ]
+    ],
+    "step-1": [
+      "workflow",
+      [
+        38,
+        48,
+        205,
+        130
+      ]
+    ],
+    "step-2": [
+      "workflow",
+      [
+        175,
+        48,
+        365,
+        130
+      ]
+    ],
+    "step-3": [
+      "workflow",
+      [
+        38,
+        85,
+        205,
+        221
+      ]
+    ],
+    "step-4": [
+      "workflow",
+      [
+        175,
+        85,
+        365,
+        221
+      ]
+    ],
+    "step-5": [
+      "workflow",
+      [
+        335,
+        120,
+        545,
+        221
+      ]
+    ],
+    "cta": [
+      "cta",
+      [
+        0,
+        0,
+        864,
+        264
+      ]
+    ],
+    "footer": [
+      "footer",
+      [
+        0,
+        0,
+        864,
+        44
+      ]
+    ]
+  },
+  "note": "coordinates corrected from marked source; no headings clipped"
+}
